@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: black;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    font-family: "Open Sans";
+    font-size: 26px;
+    color: white;
+    z
+}
+
+.links ul {
+    display: flex;
+    gap: 35px;
+    font-family: "Open Sans";
+}
+
+.links li {
+    font-size: 16px;
+    list-style: none;
+}
+
+.butn {
+    color: white;
+    text-decoration: none;
+}
+
+.butun {
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+}
+
+.butun :hover {
+    background-color: white;
+    color: black;
+}
+
+.mainheading {
+    font-family: "Roboto";
+    color: white;
+    font-size: 60px;
+    margin-left: 80px;
+}
+
+.lists-1 {
+    color: grey;
+    font-family: "Open Sans";
+    margin-left: 1020px;
+    /* margin-top: 65px; */
+}
+
+.one {
+    list-style: none;
+    font-size: 30px;
+    color: gray;
+}
+
+.two {
+    list-style: none;
+    font-size: 35px;
+    color: rgb(185, 179, 179);
+}
+
+.three {
+    list-style: none;
+    font-size: 40px;
+    color: rgb(224, 208, 208);
+}
+
+.lists-2 {
+    color: grey;
+    font-family: "Open Sans";
+    margin-left: 1020px;
+}
+
+button {
+    padding: 6px;
+    /* margin-top: px; */
+    margin-left: 140px;
+    margin-bottom: 45px;
+}
+
+.disscus {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.middle {
+    color: gray;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-left: 140px;
+}
+
+.heading-1 {
+    font-family: "Open Sans";
+    color: white;
+    margin-left: 140px;
+}
+
+.middlewhite {
+    font-family: "Open Sans";
+    color: white;
+    margin-left: 140px;
+    margin-right: 700px;
+}
+
+.casestudies {
+    margin-left: 650px;
+    color: white;
+    font-family: "Roboto";
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.cardslink {
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans";
+    padding-left: 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cards p {
+    color: gray;
+    font-family: "Roboto";
+    padding-left: 15px;
+}
+
+.card-1 {
+    background-color: rgb(39, 38, 38);
+    width: 25%;
+    height: 55vh;
+    border-radius: 1rem;
+}
+
+.card-2 {
+    background-color: rgb(39, 38, 38);
+    width: 25%;
+    height: 55vh;
+    border-radius: 1rem;
+}
+
+.card-3 {
+    background-color: rgb(39, 38, 38);
+    width: 25%;
+    height: 55vh;
+    border-radius: 1rem;
+}
+
+h2 {
+    color: white;
+    font-family: "Open Sans";
+    padding-left: 15px;
+}
+
+.allcase {
+    background-color: transparent;
+    font-family: "Open Sans";
+    border: 2px solid white;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 65px;
+    margin-left: 670px;
+}
+
+.partners {
+    width: 100%;
+    height: 18vh;
+    background-color: #0a0a0a;
+
+}
+
+.partners p {
+    padding-top: 25px;
+    color: white;
+    font-size: 22px;
+    font-family: "Roboto";
+    margin-left: 650px;
+}
+
+.partnerslogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 20px;
+}
+
+.bg {
+    background-image: url(bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.text {
+    font-family: "Roboto";
+    padding-top: 40px;
+}
+
+.text h1 {
+    font-size: 50px;
+    padding-left: 650px;
+}
+
+.text p {
+    font-size: 21px;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: rgb(32, 32, 32);
+}
+
+.text h3 {
+    font-size: 21px;
+    padding-left: 650px;
+    color: white;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.cards2-1 {
+    width: 35%;
+    height: 25vh;
+    background-color: rgb(39, 38, 38);
+    border-radius: 1.5rem;
+    color: white;
+    font-family: "Open Sans";
+    padding-left: 25px;
+}
+
+.cards2-2 {
+    width: 35%;
+    height: 25vh;
+    background-color: rgb(39, 38, 38);
+    border-radius: 1.5rem;
+    color: white;
+    font-family: "Open Sans";
+    padding-left: 25px;
+}
+
+.cards3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards3-1 {
+    width: 35%;
+    height: 25vh;
+    background-color: rgb(39, 38, 38);
+    border-radius: 1.5rem;
+    color: white;
+    font-family: "Open Sans";
+    padding-left: 25px;
+}
+
+.cards3-2 {
+    width: 35%;
+    height: 25vh;
+    background-color: rgb(39, 38, 38);
+    border-radius: 1.5rem;
+    color: white;
+    font-family: "Open Sans";
+    padding-left: 25px;
+}
+
+.ideas1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.ideas2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.idea {
+    height: 23vh;
+    width: 26%;
+    background-color: rgb(39, 38, 38);
+    border-radius: 0.5rem;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.idea h1 {
+    font-family: "Roboto";
+    color: white;
+}
+
+.idea p {
+    font-family: "Roboto";
+    color: rgb(165, 165, 165);
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.posts1 {
+    width: 25%;
+    height: 48vh;
+    background-color: rgb(39, 38, 38);
+    border-radius: 0.5rem;
+    font-family: "Roboto";
+}
+
+.posts h1 {
+    font-size: 21px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.posts p {
+    font-size: 17px;
+    color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.view {
+    margin-top: 25px;
+    margin-left: 580px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 5vh;
+    width: 42%;
+    border-radius: 0.5rem;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    border: 1px solid white;
+    margin-left: 140px;
+}
+
+input:focus {
+    border: 1px solid rgb(55, 38, 83);
+    outline: none;
+}
+
+.message {
+    size: 120px;
+    width: 42%;
+    border-radius: 0.5rem;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    border: 1px solid white;
+    margin-left: 140px;
+}
+
+.forlsubmit {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-size: 16px;
+}
+
+.send {
+    padding: 6px;
+    margin-top: 35px;
+    border-radius: 0.2rem;
+    border: 1px solid white;
+    margin-left: 230px;
+    font-family: "Roboto";
+}
+
+.lastimg {
+    margin-right: 120px;
+}
+
+.subscribe {
+    width: 80%;
+    height: 18vh;
+    background-color: rgb(39, 38, 38);
+    margin-left: 180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.subscribe h1 {
+    color: white;
+    font-family: "Roboto";
+}
+
+.subscribe p {
+    color: gray;
+    font-family: "Roboto";
+}
+
+.subbutt {
+    text-decoration: none;
+    font-family: "Roboto";
+    color: whitesmoke;
+    font-size: 17px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 0.4rem;
+}
+
+.subscribelink {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+a:hover {
+    color: white;
+}
+
+.comment {
+    background-color: #0a0a0a;
+    width: 80%;
+}
+
+.lastdiv {
+    height: 53vh;
+    width: 100%;
+    background-color: white;
+}
+
+.lastdiv h1 {
+    /* color: gray; */
+    font-family: "Open Sans";
+    font-size: 38px;
+    padding-top: 80px;
+    padding-left: 480px;
+    padding-right: 420px;
+}
+
+.lastdiv button {
+    color: black;
+    background-color: gray;
+    font-size: 26px;
+    border: 2px;
+    width: 25%;
+    margin-right: 120px;
+}
+
+.lastdiv a {
+    color: black;
+    text-decoration: none;
+}
+
+.lastdiv h2 {
+    font-size: 55px;
+    color: rgb(39, 38, 38);
+    font-family: "Open Sans";
+
+}
