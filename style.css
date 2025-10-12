@@ -1,0 +1,89 @@
+ * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            color: white;
+            background-color: black;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        /* for Tablet */
+        @media (max-width:912px) {
+            .keywords {
+                display: none;
+            }
+
+            .keywordss {
+                display: none;
+            }
+
+            .maintext h1 {
+                font-size: 68px;
+            }
+
+            .case-list {
+                flex-direction: column;
+            }
+
+            .inovation {
+                height: fit-content;
+
+            }
+
+            .imges {
+                flex-wrap: wrap;
+
+            }
+
+            .bg {
+                height: fit-content;
+            }
+
+            .collab-card {
+                flex-direction: column;
+            }
+
+            .collab {
+                width: auto;
+            }
+
+            .consultation {
+                flex-direction: column;
+            }
+
+            .blog {
+                flex-direction: column;
+            }
+
+            .form {
+                flex-direction: column;
+            }
+
+            .contact {
+                flex-direction: column;
+                height: fit-content;
+                padding: 22px;
+            }
+
+            .subscribe {
+                width: 90%;
+            }
+
+            .last h1 {
+                font-size: 26px;
+            }
+
+            .heading {
+                display: none;
+            }
+        }
+
+        /* for mobile */
+        @media (max-width:518px) {
+            .maintext h1 {
+                font-size: 45px;
+            }
+        }
